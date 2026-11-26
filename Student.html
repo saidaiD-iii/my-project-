@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>Моя страница</title>
+    <meta charset="UTF-8">
+    <title>Моя страница</title>
+    <style>
+        /* Здесь мы настраиваем дизайн (CSS) */
+        body {
+            background-color: #1a1a1a; /* Темный фон */
+            color: #ffffff; /* Белый текст */
+            font-family: 'Arial', sans-serif; /* Красивый шрифт */
+            text-align: center; /* Выравнивание по центру */
+            padding-top: 50px; /* Отступ сверху */
+        }
+        h1 {
+            color: #4CAF50; /* Зеленый заголовок */
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+            color: #dddddd;
+        }
+        .card {
+            background-color: #2a2a2a; /* Цвет карточки */
+            border-radius: 15px; /* Закругленные углы */
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 400px; /* Ширина карточки */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Тень */
+            border: 1px solid #4CAF50;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #45a049; /* Цвет при наведении */
+        }
+    </style>
 </head>
 <body>
-  <h1>Привет, мир!</h1>
-  <p>Это мой первый код на GitHub.</p>
+
+    <div class="card">
+        <h1>Привет, мир! 👋</h1>
+        <p>Это мой первый код на GitHub, и теперь он выглядит круто!</p>
+        <p>Я учусь программировать с телефона.</p>
+        
+        <!-- Кнопка со ссылкой на ваш профиль GitHub -->
+        <a href="https://github.com/saidaid-iii" class="button" target="_blank">Мой профиль на GitHub</a>
+    </div>
+
 </body>
 </html>
